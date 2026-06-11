@@ -162,8 +162,8 @@ function Experience() {
   return (
     <section className="section experience">
       <div className="section-inner experience-layout">
-        <SectionHeader kicker="Experience" title="레드소프트에서 이어온 솔루션 개발 경험">
-          2022년 2월부터 솔루션개발본부에서 웹 개발자로 근무하며 다양한 산업군의
+        <SectionHeader kicker="Experience" title="엔터프라이즈 솔루션 개발 경험">
+          2022년 2월부터 2026년 1월까지 웹 개발자로 근무하며 다양한 산업군의
           업무 시스템 구축과 고도화를 수행했습니다.
         </SectionHeader>
         <article className="timeline-item">
