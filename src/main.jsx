@@ -1,10 +1,9 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import {
+  ArrowUp,
   ArrowUpRight,
   Award,
-  BriefcaseBusiness,
-  Code2,
   Database,
   GraduationCap,
   Mail,
@@ -43,8 +42,8 @@ function App() {
   return (
     <>
       <header className="site-header" aria-label="주요 메뉴">
-        <a className="brand" href="#top" aria-label="강혜수 포트폴리오 홈">
-          HSK
+        <a className="brand" href="#top" aria-label="최상단으로 이동" title="최상단으로 이동">
+          <ArrowUp size={21} strokeWidth={2.4} aria-hidden="true" />
         </a>
         <nav>
           {navItems.map(([label, id]) => (
